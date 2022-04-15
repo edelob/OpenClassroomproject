@@ -1,0 +1,265 @@
+/***BODY***/
+
+body {
+    margin: 30px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 16px;
+    color: grey;
+}
+
+
+/***HEADER***/
+
+#logo_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo_nav img {
+    width: 10%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+nav a {
+    text-decoration: none;
+    color: grey;
+    margin-right: 20px;
+    padding-top: 25px;
+}
+
+nav a:hover {
+    color: #0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+
+/***RECHERCHE DE LIEUX***/
+
+#saisie_recherche {
+    margin-bottom: 30px;
+}
+
+#saisie_recherche button {
+    background-color: #0065FC;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 0px 30px 30px 0px;
+    margin-left: 0px;
+}
+
+#saisie_recherche input {
+    padding: 10px 0px;
+}
+
+#saisie_recherche i {
+    border-radius: 30px 0px 0px 30px;
+    padding: 10px;
+    width: auto;
+}
+
+i {
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 15px;
+    max-width: 100%;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+button {
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    background-color: #ffffff;
+    padding: 0px 20px 0px 0px;
+}
+
+.button1 {
+    border: none;
+    background-color: white;
+}
+
+
+/***SECTION HEBERGEMENT***/
+
+#hebergement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/***SECTION HEBERGEMENT A MARSEILLE***/
+
+#hebergement_marseille {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    width: 63%;
+    border-radius: 30px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.marseille_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 70%;
+}
+
+#hebergement_marseille h1 {
+    padding-left: 10px;
+    margin: 0px;
+    font-size: 24px;
+}
+
+.marseille_box h2 {
+    font-size: 18px;
+}
+
+.chambre {
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+    border: 5px solid white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 2px grey;
+    width: 100%;
+    height: 70%;
+}
+
+.chambre img {
+    border-radius: 30px 30px 0px 0px;
+    max-width: 100%;
+    height: 50%;
+}
+
+.chambre h2 {
+    margin: 10px 0px 0px 10px;
+}
+
+.chambre p {
+    margin: 10px 0px 0px 10px;
+}
+
+.etoiles {
+    width: 80px;
+    height: 30px;
+    margin: 0px 0px 0px 10px;
+    box-sizing: border-box;
+}
+
+
+/***ASIDE***/
+
+aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    width: 30%;
+    position: relative;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#boites_populaires {
+    box-sizing: inherit;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#titre_populaire {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#titre_populaire h1 {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.populaire_box {
+    display: flex;
+    border: 5px solid white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 2px grey;
+    margin: 20px 10px 20px 10px;
+}
+
+.populaire_box img {
+    border-radius: 30px 0px 0px 30px;
+    width: 40%;
+}
+
+.text_populaire {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.text_populaire h2 {
+    margin: 12px 0px 0px 0px;
+    font-size: 18px;
+}
+
+.text_populaire p {
+    margin: 12px 0px 0px 0px;
+}
+
+.etoiles_pop {
+    width: 80px;
+    height: 60px;
+}
+
+
+/****FOOTER****/
+
+footer {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 300px;
+    padding-left: 10px;
+}
+
+.footer_links {
+    display: flex;
+    flex-direction: column;
+}
+
+footer h2 {
+    margin-bottom: 5px;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 18px;
+    color: grey;

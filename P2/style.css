@@ -12,7 +12,6 @@
 /***BODY***/
 
 body {
-    /* max-width: 1440px;*/
     margin: auto;
 }
 
@@ -33,7 +32,7 @@ p {
 }
 
 
-/***HEADER***/
+/************************************HEADER*******************************************/
 
 header {
     margin: 0 30px 20px 30px;
@@ -68,7 +67,7 @@ header {
 }
 
 
-/***RECHERCHE DE LIEUX***/
+/***********************************RECHERCHE DE LIEUX***********************************/
 
 .search h1 {
     margin-top: 40px;
@@ -119,7 +118,7 @@ header {
 }
 
 
-/*BARRE DE FILTRES*/
+/********************************BARRE DE FILTRES************************************/
 
 .filters {
     display: flex;
@@ -175,7 +174,7 @@ button i {
 }
 
 
-/***SECTION HEBERGEMENT***/
+/*************************************SECTION HEBERGEMENT**************************************/
 
 .hosting {
     display: flex;
@@ -185,7 +184,7 @@ button i {
 }
 
 
-/***SECTION HEBERGEMENT A MARSEILLE***/
+/**************************** HEBERGEMENT A MARSEILLE**********************/
 
 .marseille_hosting {
     display: flex;
@@ -260,7 +259,7 @@ h3 {
 }
 
 
-/***ASIDE***/
+/***************************************ASIDE***POPULAIRES***********************************/
 
 .sidebar_popular {
     display: flex;
@@ -332,7 +331,7 @@ h3 {
 }
 
 
-/***SECTION ACTIVITES***/
+/*******************************SECTION ACTIVITES****************************************/
 
 .activities {
     display: flex;
@@ -443,7 +442,7 @@ h3 {
 }
 
 
-/****FOOTER****/
+/*****************************************FOOTER********************************************/
 
 footer {
     display: flex;
@@ -478,10 +477,10 @@ footer a {
 }
 
 
-/********BREAKPOINT MEDIA QUERIES*******/
+/****************************************BREAKPOINT MEDIA QUERIES********************************/
 
 
-/*****Desktop 1170<X<992*****/
+/**********************************Desktop 1170<X<992*********************************/
 
 @media screen and (max-width: 1170px) {
     .popular_text h3 {
@@ -493,7 +492,7 @@ footer a {
 }
 
 
-/****Tablets 992px<X<768px *****/
+/*********************************Tablets 992px<X<768px *******************************************/
 
 @media screen and (max-width: 992px) {
     header {
@@ -505,7 +504,7 @@ footer a {
     .links a {
         font-size: 20px;
     }
-    /*******Recherche/ Filtres *****/
+    /********************************Recherche/ Filtres ***Tablettes***********************/
     .search_type button {
         margin-top: 0;
     }
@@ -516,6 +515,7 @@ footer a {
     button {
         margin-top: 10px;
     }
+    /*******************************Hébergement****Tablettes*********************************/
     .hosting {
         flex-direction: column-reverse;
         width: 95%;
@@ -534,14 +534,14 @@ footer a {
         width: 30%;
         height: auto;
     }
-    /******Hebergement*****/
+    /************************Hebergement à Marseille***Tablettes*********************/
     .marseille_hosting {
         width: 100%;
     }
     .room {
         margin: 10px 10px;
     }
-    /*****Activités*****/
+    /*****************************Activités****Tablettes****************************/
     .activity_box p {
         font-size: 15px;
     }
@@ -566,7 +566,7 @@ footer a {
 }
 
 
-/*********Phones 768<X *********/
+/************************************************Phones 768<X ********************************/
 
 @media screen and (max-width: 768px) {
     header {
@@ -588,6 +588,7 @@ footer a {
     p {
         font-size: 15px;
     }
+    /**************************HEADER****Mobiles**************************/
     .logo_links {
         display: flex;
         flex-direction: column;
@@ -615,6 +616,7 @@ footer a {
         border-top: 0px;
         border-bottom: 4px solid #0065FC;
     }
+    /*****************************SECTION RECHERCHE*******Mobiles************************/
     .search {
         margin: 10px 0 20px 20px;
     }
@@ -642,7 +644,7 @@ footer a {
         font-size: 18px;
         margin-left: 20px;
     }
-    /*Filters*/
+    /**************************Filters****Mobiles*************************/
     .filters {
         display: block;
         margin-left: 20px;
@@ -661,7 +663,7 @@ footer a {
         margin-left: 20px;
         font-size: 16px;
     }
-    /*HEBERGEMENT*/
+    /*****************************HEBERGEMENT****Mobiles*************************/
     .hosting {
         display: flex;
         flex-direction: column-reverse;
@@ -675,7 +677,7 @@ footer a {
     .marseille_box+h2 {
         margin: 20px;
     }
-    /***Populaires***/
+    /***************************Populaires****Mobiles**************************/
     .sidebar_popular {
         width: 100%;
         flex-direction: column;
@@ -710,7 +712,6 @@ footer a {
     .popular_text {
         justify-content: space-between;
         width: 50%;
-        /*padding: 20px 0;*/
         padding: 0;
     }
     .popular_text h3,
@@ -720,7 +721,7 @@ footer a {
     .stars i {
         font-size: 12px;
     }
-    /***Hebergement à Marseille***/
+    /******************************Hebergement à Marseille***Mobiles**********************/
     .marseille_hosting {
         justify-content: space-between;
         width: 100%;
@@ -749,7 +750,7 @@ footer a {
         font-size: 18px;
         margin-left: 30px;
     }
-    /***section activités***/
+    /******************************section activités******Mobiles*****************/
     .activities {
         margin: 20px 0;
         width: 100%;
@@ -784,7 +785,7 @@ footer a {
     .mini_box {
         margin-bottom: 30px;
     }
-    /***Footer***/
+    /******************************Footer********Mobiles********************/
     footer {
         display: flex;
         flex-direction: column;
@@ -805,3 +806,6 @@ footer a {
         margin: 20px 0 20px 0;
     }
 }
+
+
+/*****************************************END**********************************************/
